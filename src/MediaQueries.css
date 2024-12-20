@@ -1,8 +1,10 @@
 /* Bellow 1300px (1300/16=81) */
 @media (max-width: 81.25em) {
   /* SECTION HERO */
-  body {
+  body,
+  html {
     overflow-x: hidden;
+    width: 100%;
   }
   .sectionHero {
     max-width: 120rem;
@@ -601,6 +603,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    width: 10rem;
   }
   /* SIDE */
   .loopIconBox {
@@ -623,14 +626,16 @@
   /* /* MOBILE NAVIGATION */
   .mobileNavigation {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     height: 9rem;
+    /* width: 100%; */
+    overflow-x: hidden;
     padding: 0 1.5rem;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     z-index: 100;
     background-color: #fff !important;
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
@@ -641,6 +646,12 @@
   }
   .mobileNavigation.boxShadow {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .loopIconBox {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    z-index: 100;
   }
   /* MOBILE NAVIGATION */
   .sideNav {
@@ -1564,6 +1575,10 @@
 /* Bellow 575px (575/16=35.93) */
 @media (max-width: 35.93em) {
   /* SECTION HERO */
+  body,
+  html {
+    overflow-x: hidden;
+  }
   .sectionHero {
     width: 100%;
     margin: 0 auto;
@@ -1964,6 +1979,10 @@
 /* ********** */
 /* Bellow 450px (450/16=28.12) */
 @media (max-width: 28.12em) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
