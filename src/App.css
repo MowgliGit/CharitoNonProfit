@@ -60,10 +60,18 @@ body {
   font-weight: 400;
   overflow-x: hidden;
 }
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 /* NAVIGATION CSS*/
 header {
   position: relative;
+  max-width: 135rem !important;
+  margin: 0 auto;
 }
 .navigation {
   display: flex;
@@ -71,6 +79,7 @@ header {
   align-items: center;
   padding: 3rem 3rem 3rem 2rem;
   height: 9rem;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -83,6 +92,9 @@ header {
   display: flex;
   justify-self: center !important;
   margin-right: 10rem;
+  flex: 1;
+  justify-content: center;
+  margin-right: auto;
 }
 .navList {
   display: flex;
@@ -268,9 +280,10 @@ header {
 .sectionHero {
   max-width: 140rem;
   margin: 0 auto;
-  padding: 15rem 0rem 5rem 0;
+  padding: 15rem 3rem 5rem 0;
   border-bottom: 0.5px solid #e9e3e3;
   overflow-x: hidden !important;
+  overflow-y: hidden;
 }
 .grid {
   display: grid;
@@ -336,11 +349,15 @@ header {
   font-size: 2rem;
   text-decoration: none;
 }
+.heroImgBox {
+  position: relative;
+}
 .backgroundBlueHero {
   position: absolute;
-  right: 0;
+  right: -5%;
   top: -38%;
-  width: 49%;
+  /* width: 49%; */
+  width: 650px;
   height: 850px;
   content: "";
   background: #ebfcfa;
@@ -837,13 +854,14 @@ p {
 }
 .squarePinkBox {
   position: absolute;
-  left: -18.1rem;
+  left: -10rem;
   top: -10rem;
-  height: 130%;
-  width: 95%;
+  height: 950px;
+  width: 430px;
   content: "";
   background: #fef6f3;
   z-index: -1;
+
   overflow-y: visible;
 }
 /* SECTION CAMPAINGS*/
@@ -1065,13 +1083,13 @@ p {
 .sectionTeams {
   width: 100%;
   margin: 0 auto;
-  padding: 10rem 0;
-  background: #fef6f3;
+  padding: 5rem 0;
 }
 .containerTeams {
+  background: #fef6f3;
   max-width: 140rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 10rem 1rem;
 }
 .textBoxTeam {
   width: 60rem;
@@ -1339,8 +1357,10 @@ p {
 /* SECTION BLOG */
 .sectionBlog {
   max-width: 140rem;
+  margin: 0 auto;
   background-color: #fef6f3;
   padding: 5rem 0;
+  overflow-x: hidden;
 }
 .blogCardItem {
   height: auto;
@@ -1359,13 +1379,6 @@ p {
   z-index: 9;
 }
 
-/* .hrBlog {
-  opacity: 1;
-  width: 100%;
-  padding: 0;
-  height: 1px;
-  margin-bottom: 5px !important;
-} */
 .blogCardBox {
   padding: 0 2rem;
 }
@@ -1401,6 +1414,11 @@ p {
   margin: 0 auto;
   background-color: #fff;
   padding-bottom: 10rem;
+}
+.containerTeam {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 10rem 1rem;
 }
 .sliderContainer {
   width: 100%;
@@ -1552,7 +1570,8 @@ p {
 /*ABOUT PAGE SECTION SECOND PAGE  */
 /*  */
 .aboutSectionBackground {
-  width: 100vw;
+  max-width: 140rem;
+  margin: 0 auto;
   overflow-x: hidden;
 }
 .aboutBackgroundBox {
@@ -1579,6 +1598,7 @@ p {
   z-index: 1;
 }
 .aboutContent {
+  max-width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1588,6 +1608,7 @@ p {
   z-index: 2;
 }
 .aboutTitle {
+  max-width: 100%;
   font-size: 6rem;
   color: #fff;
   line-height: 70px;
@@ -2086,5 +2107,7 @@ select:focus {
 .sectionMap {
   height: 100%;
   width: 100%;
+  width: 140rem;
+  margin: 0 auto;
   z-index: 1;
 }

@@ -111,6 +111,7 @@
   .sectionLogo {
     max-width: 120rem;
     margin: 0 auto;
+    padding-top: 0 !important;
   }
   .sliderContainer {
     width: 100%;
@@ -600,10 +601,9 @@
   }
   /* LOGO */
   .logoImageBox {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 10rem;
+    width: 15rem;
+    margin: 0 auto;
+    text-align: center;
   }
   /* SIDE */
   .loopIconBox {
@@ -1584,7 +1584,7 @@
     margin: 0 auto;
     height: 100vh;
     z-index: 5555;
-    padding: 22rem 0rem 5rem 0;
+    padding: 10rem 0rem 5rem 0;
   }
   .heroTextBox {
     padding: 0 1rem 0 2rem;
@@ -1991,7 +1991,7 @@
     width: 100%;
     margin: 0 auto;
     height: auto;
-    padding: 20rem 0rem 5rem 0;
+    padding: 8rem 0rem 5rem 0;
   }
   .paragraph {
     font-size: 1.6rem;

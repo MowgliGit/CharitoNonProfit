@@ -37,7 +37,7 @@ export default function Logo() {
   return (
     <div className="sliderContainer">
       <section className="sectionTeams sectionLogo">
-        <div className="containerTeams">
+        <div className="containerTeam">
           <div className="textBoxTeam">
             <span className="subTitleTeam">Who help us</span>
             <h2 className="headingTeam">Our Partners & Donors</h2>
