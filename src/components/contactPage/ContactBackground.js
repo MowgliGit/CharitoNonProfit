@@ -14,7 +14,7 @@ export default function AboutBackground() {
       <div className="aboutBackgroundBox">
         <img
           className="aboutBackground"
-          src={`${process.env.PUBLIC_URL}/aboutUs/AboutUs.jpg`}
+          src={`${process.env.PUBLIC_URL}/aboutUs/aboutUs.jpg`}
           alt="aboutBackground"
         />
         <div className="aboutContent">
