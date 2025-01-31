@@ -61,7 +61,7 @@ function App() {
     },
   ];
   return (
-    <Router basename="/CharitoNonProfit">
+    <Router basename="/CharitoNonProfit" className="app">
       <Routes>
         <Route path="/" element={<HomePage menu={menu} />} />
         <Route path="/about" element={<AboutPage />} />

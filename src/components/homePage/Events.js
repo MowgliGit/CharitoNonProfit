@@ -18,7 +18,7 @@ function Events() {
               {
                 imgSrc: `${process.env.PUBLIC_URL}/events/eventimg1.jpg`,
                 date: "25 Nov, 2021",
-                title: "Help The Poor From Your Soul",
+                title: "Help The Poor From Your Soul And Heart",
                 description:
                   "There are many variations of passages of Lorem Ipsum available.",
               },

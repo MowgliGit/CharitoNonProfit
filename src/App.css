@@ -66,11 +66,15 @@ html {
   padding: 0;
   overflow-x: hidden;
 }
+.app {
+  max-width: 155rem;
+  margin: 0 auto;
+}
 
 /* NAVIGATION CSS*/
 header {
   position: relative;
-  max-width: 135rem !important;
+  max-width: 155rem !important;
   margin: 0 auto;
 }
 .navigation {
@@ -278,7 +282,7 @@ header {
 
 /* HERO SECTION */
 .sectionHero {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   padding: 15rem 3rem 5rem 0;
   border-bottom: 0.5px solid #e9e3e3;
@@ -357,8 +361,8 @@ header {
   right: -5%;
   top: -38%;
   /* width: 49%; */
-  width: 650px;
-  height: 850px;
+  width: 700px;
+  height: 950px;
   content: "";
   background: #ebfcfa;
   border-top-left-radius: 50%;
@@ -512,7 +516,7 @@ header {
 }
 /* SECTION FEATURES */
 .sectionFeatures {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   padding: 5rem 0;
 }
@@ -534,8 +538,8 @@ header {
   padding: 4rem 2rem 2rem 2rem;
   text-align: center;
   box-shadow: 0 0 63px 0 rgba(4, 8, 88, 0.05);
-  width: 260px;
-  height: 230px;
+  width: 300px;
+  height: 250px;
   background-color: #fff;
   overflow: visible;
 }
@@ -596,7 +600,7 @@ header {
 }
 /* SECTION ABOUT */
 .sectionAbout {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   padding: 15rem 0 15rem 0;
   position: relative;
@@ -866,7 +870,7 @@ p {
 }
 /* SECTION CAMPAINGS*/
 .sectionCampaigns {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   padding: 2rem 0 10rem 0;
   overflow-x: hidden;
@@ -907,12 +911,17 @@ p {
   gap: 3rem;
 }
 .campaignsCardItem {
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  height: 526px !important;
+  flex-grow: 1;
   padding: 1.5rem;
   box-shadow: 0 1px 15px 0 rgba(62, 65, 159, 0.15);
   border-radius: 15px;
   background: #fff;
 }
+
 .campaignsCardImgBox {
   position: relative;
 }
@@ -946,6 +955,7 @@ p {
 .cardTitle:hover {
   color: #ef5f34;
 }
+
 .cardSpanBox {
   display: flex;
   align-items: center;
@@ -1081,13 +1091,13 @@ p {
 }
 /* SECTION TEAMS*/
 .sectionTeams {
-  width: 100%;
+  max-width: 155rem;
   margin: 0 auto;
   padding: 5rem 0;
 }
 .containerTeams {
   background: #fef6f3;
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   padding: 10rem 1rem;
 }
@@ -1135,13 +1145,14 @@ p {
   white-space: nowrap;
 }
 .personTeamCardItem {
-  flex-shrink: 0;
-  width: 250px;
+  flex-shrink: 1;
+  width: 300px;
   height: auto;
-  margin-right: 10px;
+  margin-right: 5px;
 }
-.teamImg {
+.teamImg img {
   display: block;
+  width: 300px;
   height: 280px;
   object-fit: contain;
 }
@@ -1239,7 +1250,7 @@ p {
 }
 /* TESTIMONIAL SECTION */
 .sectionTestimonials {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
 }
 .containerTestimonial {
@@ -1356,7 +1367,7 @@ p {
 }
 /* SECTION BLOG */
 .sectionBlog {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   background-color: #fef6f3;
   padding: 5rem 0;
@@ -1410,7 +1421,7 @@ p {
 }
 /* SECTION LOGO */
 .sectionLogo {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   background-color: #fff;
   padding-bottom: 10rem;
@@ -1464,7 +1475,7 @@ p {
 /* SECTION FOOTER */
 .sectionFooter {
   background: #29395b;
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
 }
 .containerFooter {
@@ -1570,7 +1581,7 @@ p {
 /*ABOUT PAGE SECTION SECOND PAGE  */
 /*  */
 .aboutSectionBackground {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -1646,7 +1657,7 @@ p {
 }
 /* VIDEO IMAGE SECTION  */
 .videoSection {
-  width: 140rem;
+  width: 155rem;
   margin: 0 auto;
   padding: 5rem 0;
 }
@@ -1781,7 +1792,7 @@ p {
 }
 /* SECTION FEATURES */
 .sectionFeaturesAbout {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   padding: 5rem 0 0rem 0;
 }
@@ -1886,7 +1897,7 @@ hr {
 }
 /* SECTION FOR FUNTESTIMONIALFACT  */
 .sectionTestimonialsAbout {
-  max-width: 120rem;
+  max-width: 150rem;
   margin: 0 auto;
 }
 .testimonialBoxFun {
@@ -1933,7 +1944,7 @@ hr {
 /*  */
 /* SECTION OFFICEINFO */
 .officeInfoSection {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
 }
 .containerOfficeInfo {
@@ -1996,7 +2007,7 @@ hr {
 }
 /* sectionContactFormArea */
 .sectionContactFormArea {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   z-index: 2;
   position: relative;
@@ -2106,8 +2117,8 @@ select:focus {
 /* SECTION MAP */
 .sectionMap {
   height: 100%;
-  width: 100%;
-  width: 140rem;
+  max-width: 155rem;
+
   margin: 0 auto;
   z-index: 1;
 }
