@@ -65,16 +65,14 @@ function Footer() {
           </div>
           <div className="contact">
             <h6 className="footerTitle">Contact</h6>
-            <p className="footerDescription">
-              Would you have any enquiries. Please feel free to contuct us
-            </p>
+            <p className="footerDescription">Would you have any enquiries.</p>
             <div className="contactBox">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="footerIconContact"
               />
               <a href="#" className="footerLink">
-                charitio@gmail.com
+                youremail@example.com
               </a>
             </div>
             <div className="contactBox">
@@ -83,7 +81,7 @@ function Footer() {
                 className="footerIconContact"
               />
               <a href="#" className="footerLink">
-                +888 (123) 869523
+                +0 (000) 000-0000
               </a>
             </div>
             <div className="contactBox">
@@ -92,7 +90,7 @@ function Footer() {
                 className="footerIconContact"
               />
               <a href="#" className="footerLink">
-                New York – 1075 Firs Avenue
+                000 Main Street, City, Country
               </a>
             </div>
           </div>

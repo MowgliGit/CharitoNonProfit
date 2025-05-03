@@ -10,21 +10,22 @@ export default function OfficeInfo() {
   const officeInf = [
     {
       name: "Address",
-      info: "7 Green Lake Street ",
-      text: "Crawfordsville, IN 47933",
+      info: " 00  Main Street",
+      text: "    City, Country",
+
       icon: faMapMarkerAlt,
     },
     {
       name: "Email Us",
       icon: faEnvelope,
-      info: "charitio@gmail.com",
-      text: "helloyou@gmail.com",
+      info: "youremail@example.com",
+      text: "youremail@example.com",
     },
     {
       name: "Call Now",
       icon: faPhoneAlt,
-      info: "+1 800 123 456 789",
-      text: "+1 800 123 654 987",
+      info: "+0 (000) 000-0000",
+      text: "+0 (000) 000-0000",
     },
   ];
 
