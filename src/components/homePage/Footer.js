@@ -72,7 +72,7 @@ function Footer() {
                 className="footerIconContact"
               />
               <a href="#" className="footerLink">
-                youremail@example.com
+                ______________________
               </a>
             </div>
             <div className="contactBox">
@@ -81,7 +81,7 @@ function Footer() {
                 className="footerIconContact"
               />
               <a href="#" className="footerLink">
-                +0 (000) 000-0000
+                ______________________
               </a>
             </div>
             <div className="contactBox">
@@ -90,7 +90,7 @@ function Footer() {
                 className="footerIconContact"
               />
               <a href="#" className="footerLink">
-                000 Main Street, City, Country
+                ______________________
               </a>
             </div>
           </div>

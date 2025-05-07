@@ -10,22 +10,22 @@ export default function OfficeInfo() {
   const officeInf = [
     {
       name: "Address",
-      info: " 00  Main Street",
-      text: "    City, Country",
+      info: "[not allowed to share info]",
+      text: "[not allowed to share info]",
 
       icon: faMapMarkerAlt,
     },
     {
       name: "Email Us",
       icon: faEnvelope,
-      info: "youremail@example.com",
-      text: "youremail@example.com",
+      info: "[not allowed to share info]",
+      text: "[not allowed to share info]",
     },
     {
       name: "Call Now",
       icon: faPhoneAlt,
-      info: "+0 (000) 000-0000",
-      text: "+0 (000) 000-0000",
+      info: "[not allowed to share info]",
+      text: "[not allowed to share info]",
     },
   ];
 
