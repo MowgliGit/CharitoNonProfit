@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CharitoNonProfit/static/css/main.edc241c0.css",
-    "main.js": "/CharitoNonProfit/static/js/main.82504fa1.js",
+    "main.js": "/CharitoNonProfit/static/js/main.719ef4bd.js",
     "static/js/453.99b2b83c.chunk.js": "/CharitoNonProfit/static/js/453.99b2b83c.chunk.js",
     "static/media/slick.svg": "/CharitoNonProfit/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/CharitoNonProfit/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/CharitoNonProfit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CharitoNonProfit/index.html",
     "main.edc241c0.css.map": "/CharitoNonProfit/static/css/main.edc241c0.css.map",
-    "main.82504fa1.js.map": "/CharitoNonProfit/static/js/main.82504fa1.js.map",
+    "main.719ef4bd.js.map": "/CharitoNonProfit/static/js/main.719ef4bd.js.map",
     "453.99b2b83c.chunk.js.map": "/CharitoNonProfit/static/js/453.99b2b83c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edc241c0.css",
-    "static/js/main.82504fa1.js"
+    "static/js/main.719ef4bd.js"
   ]
 }
